@@ -10,7 +10,10 @@ gem "rails", "~> 7.0.4"
 gem "sprockets-rails"
 
 # Use sqlite3 as the database for Active Record
-gem "sqlite3", "~> 1.4"
+# gem "sqlite3", "~> 1.4"
+
+#use pg for the deployment
+gem "pg"
 
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", "~> 5.0"
@@ -85,3 +88,8 @@ gem 'simple_form', '~> 5.0', '>= 5.0.2'
 gem 'will_paginate', '~> 3.3'
 
 gem "hotwire-rails", "~> 0.1.3"
+
+gem 'devise'
+
+
+
